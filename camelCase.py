@@ -1,3 +1,7 @@
+""" cameCase Converter porgramer with banner instructions and docstrings"""
+
+
+
 def camelcase (sentence):
     title_case = sentence.title() # Uppercase the first letter of each word
     upper_camel_cased = title_case.replace(' ', '') # Remove spaces between words
