@@ -5,13 +5,13 @@ def camelcase (sentence):
     return upper_camel_cased[0:1].lower() + upper_camel_cased[1:]
 
 def banner():
-    """ Display program name """
+    """ Display program name using stars"""
     message = 'CamelCase Converter'
     stars = '*' * len(message)
     print(f'{stars} \n{message} \n{stars}\n')
 
 def instructions():
-    """ Display program instructions """
+    """ Display instructions for how to use the program """
     print('This program converts a sentence into camelCase format.')
     print('Example: "hello world" becomes "helloWorld".\n')
 
