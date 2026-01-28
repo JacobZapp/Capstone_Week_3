@@ -16,11 +16,13 @@ def banner():
 
 def instructions():
     """ Display instructions for how to use the program """
+
     print('This program converts a sentence into camelCase format.')
     print('Example: "hello world" becomes "helloWorld".\n')
 
 
 def main():
+    """ Main function to run the camelCase converter program """
     banner()
     instructions()
     sentence = input('Enter a sentence: ')
